@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--fontawesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/anonymous.jpg"> <!--favicon-->
+        <title>Website Layout</title>
+    </head>
+    <body>
+    <header>
+        <a href="index2.html">
+            <div class="logo-container">
+                <img src="images/code-fox.png" alt="logo">
+                <h1>Code Fox</h1>
+            </div>
+        </a>
+            <input type="checkbox" id="checkbox1">
+            <label for="checkbox1"><i class="fas fa-bars" id="burger-menu"></i></label>
+            <label for="checkbox1"><i class="fas fa-times" id="cancel"></i></label>
+            <nav>
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#cases">Cases</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#groups">Groups</a></li>
+                </ul>
+            </nav>
+            <input type="checkbox" id="checkbox2">
+            <label for="checkbox2" class="button">Login</label>
+            <section class="login-section">
+                <div class="login-box">
+                    <form action="">
+                    <img src="images/black-avatar.png" alt="avatar">
+                    <h4>Login</h4>
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="username" id="username" placeholder="Enter your username">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" id="username" placeholder="Enter your password.">
+                    <input type="submit" name="submit" value="SUBMIT">
+                    <a href="#"><p>Forgot password?</p></a>
+                    <p>Don't have an account? <a href="#">Sign up</a></p>
+                </form>
+                </div>
+                <div class="or">
+                    <h4>Or</h4>
+                </div>
+                
+                <div class="login-with">
+                    <h4>Login with</h4>
+                        <a href="#"><img src="images/facebook-text-logo.png" class="facebook" alt="facebook logo"></a>
+                        <a href="#"><img src="images/linked-in-text.png" class="linkedin" alt="linkedin logo"></a>
+                        <a href="#"><img src="images/google-text.png" class="google"alt="google logo"></a>
+                </div>
+            </section>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="intro-text">
+                <h2>I AM PRACTICING<br>WEB DEVELOPMENT</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eaque ea provident pariatur, dolores rem quis?         Dignissimos officiis neque laborum tenetur laboriosam tempore assumenda illum cupiditate. Quibusdam quia inventore repellendus!
+                </p>
+            </div>
+        </section>
+        <section class="grid-container">
+            <h3>RESPONSIVE IMAGE GALLERY USING CSS GRID</h3>
+            <div class="image-gallery">
+                <div class="box1"><h4>Image 1</h4><p>Lorem ipsum dolor</p>
+                </div>
+                <div class="box2"><h4>Image 2</h4><p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div class="box3"><h4>Image 3</h4><p>Lorem ipsum dolor</p>
+                </div>
+                <div class="box4"><h4>Image 4</h4><p>Lorem, ipsum dolor </p>
+                </div>
+                <div class="box5"><h4>Image 5</h4><p>Lorem ipsum dolor </p>
+                </div>
+                <div class="box6"><h4>Image 6</h4>
+                <p>Lorem ipsum dolor sit</p>
+                </div>
+                <div class="box7"><h4>Image 7</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="box8"><h4>Image 8</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="box9"><h4>Image 9</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="box10"><h4>Image 10</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="box11"><h4>Image 11</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+        <section class="cases" id="cases">
+            <h2 class="cases-title">Cases</h2>
+            <div class="row">
+             
+                <div class="card-01">
+                    <h3 class="case-title">Case 1</h3>
+                </div>
+         
+                <div class="card-01">
+                    <h3 class="case-title">Case 2</h3>
+                </div>
+          
+                <div class="card-01">
+                    <h3 class="case-title">Case 3</h3>
+                </div>
+            </div>
+            <div class="row">
+            
+                <div class="card-02">
+                    <h3 class="case-title">Case 4</h3>
+                </div>
+         
+                <div class="card-02">
+                    <h3 class="case-title">Case 5</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="services-title">Services</h2>
+            <div class="row">
+                <div class="services-card">
+                    <h3>Service 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eligendi vitae reprehenderit necessitatibus animi atque consequuntur, at saepe beatae nisi sit dolorem deserunt sint quae fugit facilis asperiores dolore nulla.</p>
+                </div>
+                <div class="services-card">
+                    <h3>Service 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloribus impedit labore perspiciatis. Perspiciatis quasi quas est, aspernatur unde autem dolores dolore in tempora nemo, incidunt vitae, sit similique beatae.</p>
+                </div>
+                <div class="services-card"
+                    ><h3>Service 3</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis at consectetur earum accusamus ipsam nesciunt dolore excepturi, blanditiis similique commodi. Aliquam voluptatum accusantium debitis magni facere fugit optio adipisci laborum?</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="groups">
+            <h2 class="groups-title">Groups</h2>
+            <div class="row">
+                <div class="groups-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Group 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eligendi vitae reprehenderit necessitatibus animi atque consequuntur, at saepe beatae nisi sit dolorem deserunt sint quae fugit facilis asperiores dolore nulla.</p>
+                </div>
+                <div class="groups-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Group 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste doloribus impedit labore perspiciatis. Perspiciatis quasi quas est, aspernatur unde autem dolores dolore in tempora nemo, incidunt vitae, sit similique beatae.</p>
+                </div>
+                <div class="groups-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Group 3</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis at consectetur earum accusamus ipsam nesciunt dolore excepturi, blanditiis similique commodi. Aliquam voluptatum accusantium debitis magni facere fugit optio adipisci laborum?</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="information">
+            <h4>Information</h4>
+            <nav>
+                <ul>
+                    <li class="blog"><a href="#">Blog</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="info">
+            <i class="fas fa-phone-alt"></i><h4>+63 9151275912</h4>
+            <br>
+            <i class="fas fa-map-marker-alt"></i><h4>1241 Bleecker St. New York, USA.</h4>
+            <br>
+            <i class="fas fa-envelope"></i><h4>sample@email.com</h4>
+        </div>
+        <div class="social">
+            <h4>Follow us</h4>
+            <a href="#"><img src="images/f1.png" alt="fb"></a>
+            <a href="#"><img src="images/instagram-logo.png" alt="insta"></a>
+            <a href="#"><img src="images/t4.png" alt="twiiter"></a>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!--github profile: v-clarkcodes | 2020-->
